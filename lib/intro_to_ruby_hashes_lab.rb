@@ -12,12 +12,16 @@ def my_hash
 end
 
 def pioneer
+  #returns a hash. This hash should have a key that is a symbol :name and whose value is a string, 'Grace Hopper'.
   {
-    :name => 
+    :name => "Grace Hopper"
   }
 end
 
 
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
+  {
+    :random_key => number
+  }
 end
