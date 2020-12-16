@@ -1,16 +1,27 @@
 def new_hash
-  # return an empty hash
+  #creates and returns a new, empty hash
+  {}
 end
-
+  
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  #returns a valid hash. This hash should have at least one key/value pair of your choice.
+  {
+    :earphone => 1,
+    :speaker => 4
+  }
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  #returns a hash. This hash should have a key that is a symbol :name and whose value is a string, 'Grace Hopper'.
+  {
+    :name => "Grace Hopper"
+  }
 end
 
 
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
+  {
+    :id => number
+  }
 end
