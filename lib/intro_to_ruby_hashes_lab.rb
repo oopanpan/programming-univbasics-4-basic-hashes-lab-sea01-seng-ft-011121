@@ -4,7 +4,7 @@ end
 
 def my_hash
   {
-    :earphone => 1
+    :earphone => 1,
     :speaker => 4
   }
 end
