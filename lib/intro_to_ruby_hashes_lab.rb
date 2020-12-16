@@ -1,8 +1,10 @@
 def new_hash
+  #creates and returns a new, empty hash
   {}
 end
 
 def my_hash
+  
   {
     :earphone => 1,
     :speaker => 4
