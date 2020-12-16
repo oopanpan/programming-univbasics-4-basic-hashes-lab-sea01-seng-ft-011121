@@ -2,9 +2,9 @@ def new_hash
   #creates and returns a new, empty hash
   {}
 end
-
-def my_hash
   
+def my_hash
+  #returns a valid hash. This hash should have at least one key/value pair of your choice.
   {
     :earphone => 1,
     :speaker => 4
